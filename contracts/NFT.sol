@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 
 contract TestNFT is ERC721, ERC721Burnable {
     constructor()
-        ERC721("Swiss_Task3 li","Swiss_Task3ah")
+        ERC721("Swiss_Task3","Swiss_Task3")
     {}
 
     function safeMint(address to, uint256 tokenId) public {
